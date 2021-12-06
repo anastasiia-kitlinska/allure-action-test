@@ -10,5 +10,16 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
+
       - name: Test run
         run: mvn --batch-mode --update-snapshots verify
+
+      - name: Test marketplace action
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        id: allure-report
+        with:
+          allure_results: build/allure-results
+          gh_pages: gh-pages
+          allure_report: allure-report
+          allure_history: allure-history
