@@ -19,4 +19,4 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: Test run
-      - run: mvn --batch-mode --update-snapshots verify
+        run: mvn --batch-mode --update-snapshots verify
