@@ -15,4 +15,9 @@ public class TestClass {
     public void testTwo(){
         assertThat(true).isFalse();
     }
+
+    @Test
+    public void testTree(){
+        assertThat(true).isTrue();
+    }
 }
