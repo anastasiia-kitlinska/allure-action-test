@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Apr 10 15:03:34 GMT 2023","Mon Apr 10 15:03:34 GMT 2023","2","","org.example.TestClass","","org.example.TestClass","testTree","testTree()",""
+"failed","Mon Apr 10 15:03:34 GMT 2023","Mon Apr 10 15:03:34 GMT 2023","21","","org.example.TestClass","","org.example.TestClass","testTwo","testTwo()",""
+"passed","Mon Apr 10 15:03:34 GMT 2023","Mon Apr 10 15:03:34 GMT 2023","229","","org.example.TestClass","","org.example.TestClass","testOne","testOne()",""
